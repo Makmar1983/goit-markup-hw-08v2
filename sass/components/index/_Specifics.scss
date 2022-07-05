@@ -1,0 +1,121 @@
+.specifics {
+    padding-top: 94px;
+    @media screen and (max-width:768px) {
+        padding-bottom: 60px;
+    
+    }
+}
+
+.specifics__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.specifics__peculiarities {
+@media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (min-width:1200px) {
+    
+    flex-wrap: nowrap;
+  
+}
+}
+
+// @media screen and (max-width: 767px) {
+//     .pecifics__peculiarities:not(:last-child) {
+//         margin-bottom: 30px;
+//     }
+// }
+
+// @media screen and (min-width:1200px) {
+//     pecifics__peculiarities:not(:last-child) {
+//         margin-right: 30px;
+//     }
+
+
+.specifics__subtitle {
+    margin-bottom: 10px;
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
+    }
+    
+
+.specifics__item{
+margin-left: 30px;
+margin-bottom: 30px;
+&:nth-last-child(-n + 2) {
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }}
+&:nth-last-child(-n + 1) {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 0;
+    }
+}
+}
+.specifics__peculiarities .specifics__item+.specifics__item {
+    
+    @media screen and (min-width:1200px) {
+    margin-left: 30px;
+    
+    }
+    @media screen and (max-width:768px) {
+        margin-left: 0;
+    
+    }
+}
+.specifics__item:nth-child(odd) {
+    @media screen and (max-width: 1199px) {
+        margin-left: 0;
+    }
+}
+
+.specifics__peculiarities .specifics__item {
+    width: 270px;
+    
+    @media screen and (max-width:1199px) {
+    width: 354px;
+    // margin-bottom: 30px;
+    }
+    @media screen and (max-width:768px) {
+        width: 100%;
+        // margin-bottom: 30px;
+        
+    }
+}
+
+.specifics__div-svg {
+    display: flex;
+    height: 120px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
+.specifics__subtitle {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.specifics__paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
