@@ -15,7 +15,7 @@
 
 .clients__button-svg {
     
-    height: 92px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,18 +27,6 @@
     fill: #AFB1B8;
     transition: border 250ms $timing,
         fill 250ms $timing;
-    // @media screen and (max-width: 767px) {
-    //     width: 210px;
-      
-    // }
-    // @media screen and (min-width: 768px) {
-    //     width: 226px;
-    
-    // }
-    // @media screen and (min-width: 1200px) {
-    // width: 170px;
-    
-    // }
 }
 
 .clients__button-svg:hover,
