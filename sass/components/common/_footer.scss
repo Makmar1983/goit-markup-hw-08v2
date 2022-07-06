@@ -34,17 +34,23 @@ _______________*/
 }
 
 .footer__adress-div {
-    margin-right: 70px;
+    
+    @media screen and (min-width: 1200px) {
+        margin-right: 50px;
+    
+    }
     @media screen and (max-width: 767px) {
         margin-right: 0;
+        
     }
     @media screen and (max-width: 1199px) {
         // margin-right: 165px;
         
             justify-content: center;
             text-align: center;
-            margin: auto;
+            // margin: auto;
             margin-left: 0;
+        margin-bottom: 60px;
         
     }
 }
@@ -55,7 +61,7 @@ _______________*/
         justify-content: center;
         text-align: center;
         margin: auto;
-        margin-bottom: 60px;
+        
     }
 }
 
@@ -163,7 +169,7 @@ _______________*/
     display: flex;
     @media screen and (max-width: 767px) {
         justify-content: center;
-        margin-bottom: 60px;
+        
     }
 }
 
@@ -190,6 +196,7 @@ _______________*/
 @media screen and (max-width:767px) {
     display: block;
     justify-content: center;
+    margin-bottom: 60px;
 }
 @media screen and (max-width: 1199px) {
     justify-content: center;
@@ -210,9 +217,9 @@ _______________*/
         min-width: 570px;
         margin-left: 93px;
     }
-    @media screen and (max-width:1199px) {
-       margin-top: 60px;
-    }
+    // @media screen and (max-width:1199px) {
+    //    margin-top: 60px;
+    // }
 }
 .footer__subscribe-flex {
     display: flex;
