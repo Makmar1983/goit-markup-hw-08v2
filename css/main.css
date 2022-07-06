@@ -899,7 +899,6 @@ p {
 @media screen and (max-width: 767px) {
   .team__itemcomand {
     max-width: 450px;
-    height: 622px;
     margin-bottom: 30px;
   }
 }
