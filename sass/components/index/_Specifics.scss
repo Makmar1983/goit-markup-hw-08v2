@@ -1,6 +1,6 @@
 .specifics {
     padding-top: 94px;
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1199px) {
         padding-bottom: 60px;
     
     }
@@ -50,10 +50,15 @@
     }
     }
     
-
-.specifics__item{
+.specifics__item:not(:first-child){
 margin-left: 30px;
+}
+.specifics__item{
+
 margin-bottom: 30px;
+@media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+}
 &:nth-last-child(-n + 2) {
     @media screen and (min-width: 768px) {
         margin-bottom: 0;

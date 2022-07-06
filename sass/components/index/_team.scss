@@ -85,12 +85,18 @@ margin-bottom: 30px;
         margin-bottom: 30px;
         
     }   
+    &:not(:last-child){
+        @media screen and (max-width:1199px){
+margin-bottom: 30px;
+}
+
+    }
     @media screen and (max-width:1199px) {
         width: 354px;
         height: 536px;
-        margin-bottom: 30px;
-    }
-    
+        
+      
+    }  
 }
 .team__itemcomand:nth-child(n) {
     @media screen and (max-width: 767px) {
