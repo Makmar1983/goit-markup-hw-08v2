@@ -59,9 +59,9 @@
 .main-nav__mobil-menu.is-open .main-nav__menu-open{
     display: none;
 }
-.testt{
-    margin-bottom: 250px;
-}
+// .testt{
+//     margin-bottom: 250px;
+// }
 .main-nav__container{
     display: none;
     z-index: 2;
@@ -69,7 +69,7 @@
     top: 0;
     left: 0;
   width: 100vw;
-  height: 170vh;
+  height: 100vh;
 
   flex-direction: column;
   background-color: white;
@@ -332,4 +332,8 @@ margin-bottom: 0;
 
 .auth-nav__nav-svg {
     margin-right: 10px;
+}
+.header__link-wrap-mobile{
+    flex-direction: column;
+    justify-content: space-between;
 }
