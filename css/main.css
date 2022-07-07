@@ -1991,8 +1991,7 @@ _______________*/
     margin-right: 30px;
   }
 }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
   .portfolio__litem:not(:last-child(-n+3)) {
     margin-bottom: 30px;
   }
